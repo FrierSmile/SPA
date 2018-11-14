@@ -1,0 +1,28 @@
+#changeForm{
+    left: 70%;
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 100px;
+    z-index: 100;
+    border: 1px solid black;
+    top: 10%;
+}
+
+.save{
+    position: relative;
+    height: 60px;
+    width: 98px;
+    border: 1px solid black;
+    left: 96px;
+    top: -61px;
+    line-height: 60px;
+    text-align: center;
+    background: rgb(74, 190, 94);
+}
+
+.save:hover{
+    background: rgb(33, 153, 53);
+    cursor: pointer;
+}

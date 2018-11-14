@@ -1,0 +1,103 @@
+#pInfo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -225px;
+
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.textbox{
+    margin: 0px 10px 10px 30px;
+}
+
+.dis{
+ margin-left: 30px;
+}
+
+#but1{
+    margin-left: 200px;
+}
+
+#photo{
+    margin-left: 90px;
+}
+
+.userForm{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dis{
+    margin-left: 30px;
+   }
+   
+.contur{
+    border: 1px solid black;      
+    min-width: 50px;
+    max-width: 200px;
+    margin-bottom: 5px;
+    padding: 1px;
+    min-height: 18px;
+    overflow: hidden;
+}
+
+.userPhoto{
+    position: relative;
+    width: 111px;
+    height: 111px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 30px;
+    margin-top: 16px;
+}
+
+.del{
+    position: relative;
+    height: 42px;
+    width: 242px;
+    border: 1px solid black;
+    top: -44px;
+    background: rgb(223, 133, 133);
+    line-height: 42px;
+    text-align: center;
+}
+.del:hover{
+    background: rgb(228, 82, 82);
+    cursor: pointer;
+}
+
+.updateInfo{
+    position: relative;
+    height: 66px;
+    width: 112px;
+    border: 1px solid black;
+    left: 114px;
+    top: -73px;
+    background: rgb(126, 126, 233);
+    line-height: 66px;
+    text-align: center;
+}
+
+.updateInfo:hover{
+    background: rgb(78, 78, 211);
+    cursor: pointer;
+}
+
+.checkbox{
+    position: relative;
+    left: 15px;
+    top: -180px;
+}
+
+.red{
+    background: red;
+}

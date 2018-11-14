@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+   <title>Trying do something</title>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/figure.css">
+    <link rel="stylesheet" href="../css/users.css">
+    <link rel="stylesheet" href="../css/widget.css">
+
+    <script src="../script/main.js"></script>
+    <script src="../script/animation.js"></script>
+    <script src="../script/usres.js"></script>
+    <script src="../script/widget.js"></script>
+</head>
+
+<body>
+
+    <div id="wrap">
+    <header>
+        
+    </header>
+
+    <div id="content" class="clearfix">
+        <div id="figure">
+            <div class="text">Привет, что будешь делать?</div>
+            <div id="v1" onclick="moveFigureLeftCreate();">Новый пользователь</div>
+            <div id="v2" onclick="moveFigureLeftShow();">Список пользователей</div>
+        </div>
+
+        <div id="pInfo">
+            <div class="text">Информация о пользователе</div>
+            <div class="dis">Имя</div>
+            <input name="firstName" type="text" size="40" class="textbox">
+            <div class="dis">Фамилия</div>
+            <input name="sureName" type="text" size="40" class="textbox">
+            <div class="dis">Логин</div>
+            <input name="login" type="text" size="40" class="textbox">
+            <div class="dis">Пароль</div>
+            <input name="password" type="text" size="40" class="textbox">
+            <div class="dis">Права</div>
+            <select name="role" class="textbox red">
+                <option value="user">user</option>
+                <option value="masterUser">masterUser</option>
+                <option value="admin">admin</option>
+            </select>
+            <br><br>
+            <input type="file" id="photo" accept="image/*">
+            <br><br><br>
+            <input type="button" id="but1" value="Save" onclick="savePInfo();">
+        </div>
+    </div>
+
+</div>
+    <footer>
+    </footer>
+   
+</body>

@@ -1,0 +1,74 @@
+*{
+    margin: 0 auto;
+}
+
+html, body, #wrap{
+    background-color: black;
+    height: 100%;
+}
+
+body > #wrap{height: auto; min-height: 100%;}
+
+#content{
+    padding-bottom: 50px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: wheat;
+    line-height: 50px;
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: wheat;
+    line-height: 50px;
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+
+   position: relative;
+    margin-top: -50px;
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#autorization{
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    height: 150px;
+    width: 400px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background: white;
+}
+
+#login{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+#password{
+    position: absolute;
+    top: 43%;
+    left: 18%;
+}
+
+#aButton{
+    position: absolute;
+    top: 62%;
+    left: 38%;
+}
+
